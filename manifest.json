@@ -1,5 +1,15 @@
 {
     "name": "Hotkey_LBJ",
     "version": "0.0.1",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "description": "針對「比價撿便宜」網站，提供左右鍵換頁功能。",
+    //【原始內容】
+    "content_scripts": [ {
+        "matches": ["https://www.lbj.tw/BJ/*"],
+        "css": ["content.css"],
+        "js": [
+            "jquery-3.6.1.min.js",
+            "content.js"
+        ]
+    } ]
 }
