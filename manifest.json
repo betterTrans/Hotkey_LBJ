@@ -11,5 +11,13 @@
             "jquery-3.6.1.min.js",
             "content.js"
         ]
-    } ]
+    } ],
+    // 【彈出頁面】
+    "action": {
+        "default_popup": "popup.html"
+    },
+    //【背景頁面】
+    "background": {
+        "service_worker": "background.js"
+    }
 }
